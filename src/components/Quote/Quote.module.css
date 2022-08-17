@@ -1,0 +1,13 @@
+.quote_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  font-size: 30px;
+}
+
+.quote_text {
+  display: flex;
+  align-items: center;
+  color: azure;
+}
