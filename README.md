@@ -34,14 +34,15 @@ You have to have Node.js installed before working on this project.
 ### Authors
 
 👤 Eyasu Teshome
-👤 Collins Musoko
-
 - GitHub: [@EyasuTeshome](https://github.com/EyasuTeshome)
 - Twitter: [@EyasuTeshome](https://twitter.com/EyasuTeshome)
 - LinkedIn: [Eyasu Teshome](https://linkedin.com/in/EyasuTeshome)
+
+👤 Collins Musoko
 - GitHub: [@Github](https://github.com/Carshy)
 - Twitter: [@Twitter](https://twitter.com/CarshyCollins)
 - Linkedin: [Linkedin](https://www.linkedin.com/in/collins-musoko-864881120/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
