@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-// eslint-disable-next-line import/extensions
->>>>>>> fullwebsite
 import operate from './operate';
 
 function isNumber(item) {
