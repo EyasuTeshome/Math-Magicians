@@ -59,4 +59,50 @@ describe('calculate', () => {
       operation: null,
     });
   });
-  
+
+  it('should multiply if button equals x and total and next exist', () => {
+    expect(calculate({ total: '10', next: '7', operation: 'x' }, '=')).toEqual({
+      total: '70',
+      next: null,
+      operation: null,
+    });
+  });
+
+  it('should divide if button equals ÷ and total and next exist', () => {
+    expect(calculate({ total: '100', next: '3', operation: '÷' }, '=')).toEqual({
+      total: '33.33333333333333333333',
+      next: null,
+      operation: null,
+    });
+  });
+
+  it('should return a negative number if number is positive and button equals +/-', () => {
+    expect(calculate({ total: '1' }, '+/-')).toEqual({
+      total: '-1',
+    });
+  });
+});
+
+describe('operate', () => {
+  it('should return the sum of the two input numbers ', () => {
+    expect(parseInt(operate(2, 3, '+'), 10)).toEqual(5);
+  });
+  it('should return the difference of the two input numbers ', () => {
+    expect(parseInt(operate(5, 3, '-'), 10)).toEqual(2);
+  });
+  it('should return the multiple of the two input numbers ', () => {
+    expect(parseInt(operate(2, 3, 'x'), 10)).toEqual(6);
+  });
+  it('should return the division of the two input numbers ', () => {
+    expect(parseInt(operate(6, 3, '÷'), 10)).toEqual(2);
+  });
+  it('should return Can\'t divide by 0.', () => {
+    expect(parseInt(operate(6, 0, '÷'), 10)).toBe(NaN);
+  });
+  it('should return the modulo of the two numbers ', () => {
+    expect(parseInt(operate(6, 4, '%'), 10)).toEqual(2);
+  });
+  it('should return find modulo as Can\'t by 0.', () => {
+    expect(parseInt(operate(6, 0, '%'), 10)).toBe(NaN);
+  });
+});
