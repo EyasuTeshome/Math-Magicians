@@ -38,6 +38,12 @@ You have to have Node.js installed before working on this project.
 - GitHub: [@EyasuTeshome](https://github.com/EyasuTeshome)
 - Twitter: [@EyasuTeshome](https://twitter.com/EyasuTeshome)
 - LinkedIn: [Eyasu Teshome](https://linkedin.com/in/EyasuTeshome)
+
+👤 Collins Musoko
+
+- GitHub: [@CollinsMusoko](https://github.com/EyasuTeshome)
+- Twitter: [@CollinsMusoko](https://twitter.com/EyasuTeshome)
+- LinkedIn: [@CollinsMusoko](https://linkedin.com/in/EyasuTeshome)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
