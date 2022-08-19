@@ -1,6 +1,6 @@
 import operate from './operate';
 
-function isNumber(item) {
+export function isNumber(item) {
   return !!item.match(/[0-9]+/);
 }
 
@@ -16,7 +16,7 @@ function isNumber(item) {
 export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
-      total: null,
+      total: '0',
       next: null,
       operation: null,
     };
@@ -74,7 +74,7 @@ export default function calculate(obj, buttonName) {
       };
     }
     // '=' with no operation, nothing to do
-    return {};
+    return { total: operate(obj.total, obj.next, obj.operation) };
   }
 
   if (buttonName === '+/-') {
