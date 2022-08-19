@@ -11,7 +11,7 @@ In this project I have built a calculator app that goes with the name "Math Magi
   
 ## Live Demo
 
-Not available currently
+[Live Demo](https://eyasucalculator.herokuapp.com/)
 
 ## Getting Started
 
